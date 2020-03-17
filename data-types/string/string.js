@@ -1,0 +1,10 @@
+var firstName = 'David';
+var lastName = 'Gilmour';
+var fullName = firstName + " " + lastName;
+var upperCase = fullName.toUpperCase();
+var lowerCase = fullName.toLowerCase();
+console.log('firstName:', firstName);
+console.log('lastName:', lastName);
+console.log('fullName:', fullName);
+console.log('upperCase:', upperCase);
+console.log('lowerCase:', lowerCase);
