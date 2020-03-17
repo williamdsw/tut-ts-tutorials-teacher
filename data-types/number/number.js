@@ -1,0 +1,18 @@
+var integer = 123;
+var float = 12.3;
+var hexadecimal = 0x37CF;
+var octal = 255;
+var binary = 57;
+console.log('integer:', integer);
+console.log('float:', float);
+console.log('hexadecimal:', hexadecimal);
+console.log('octal:', octal);
+console.log('binary:', binary);
+var toExponential = integer.toExponential();
+var toFixed = float.toFixed(3);
+var toLocaleString = float.toLocaleString('pt-BR');
+var toPrecision = float.toPrecision(1);
+console.log('toExponential:', toExponential);
+console.log('toFixed:', toFixed);
+console.log('toLocaleString:', toLocaleString);
+console.log('toPrecision:', toPrecision);
